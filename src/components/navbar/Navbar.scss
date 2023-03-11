@@ -1,0 +1,31 @@
+
+
+.navContainer{
+    width: 100vw;
+
+    .navbars{
+        width: 100%;
+        background-color: rgb(109, 5, 229);
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navTitleContainer{
+        color: white;
+        padding:  0 40px;
+    }
+    .navTitle{
+        font-size: xx-large;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .navbars{
+                justify-content: center;
+    }
+}
